@@ -1,0 +1,281 @@
+*{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	font-family: 'Chewy', cursive;
+	background: #E0E6F8;
+	}
+
+head{
+	font-size: 100px;
+	}
+
+header{
+	position: relative;
+	margin: 20px auto;
+	background: black;
+	width: 1800px;
+	height: 130px;
+	}
+
+
+#logo{
+	position: absolute;
+	top: 20px;
+	left: 30px;
+	background: black;
+	width: 1000px;
+	height: 90px;
+	font-size: 90px;
+	font-family: 'Chewy', cursive;
+	text-align: center;
+	line-height: 90px;
+	color: white;
+	}
+
+.redes{
+	position: absolute;
+	width: 70px;
+	height: 70px;
+	border-radius: 100%;
+	}
+
+.redes img {
+	position: absolute;
+	width: 70px;
+	height: 70px;
+	border-radius: 100%;
+	}
+
+#fb{
+	right: 250px;
+	top: 30px;
+	}
+
+#tw{
+	right: 150px;
+	top: 30px;
+	}
+
+#go{
+	right: 50px;
+	top: 30px;
+	}
+
+nav {
+	position: relative;
+	font-family: 'Chewy', cursive;
+	font-size: 30px;
+	text-align: center;
+	line-height: 50px;
+	text-decoration: none;
+	margin: auto;
+	width: 1800px;
+	height: 50px;
+	}
+
+nav li{
+	float:left;
+	width: 356px;
+	margin: 0px 2px;
+	height: 50px;
+	background: none;
+	}
+
+nav a:hover{
+	background: rgba(100,0,255,0.4);
+	}
+
+nav a:active{
+	color: white;
+	}
+
+
+section {
+	position: relative;
+	margin: 20px auto;
+	width: 1800px;
+	height: 1200px;
+	background: white;
+	}
+
+article {
+	position: absolute;
+	width: 1438px;
+	height: 1200px;
+	left: 0;
+	top: 0;
+	margin-right: 50px;
+	background: #A9BCF5;
+	}
+
+.recetas {
+	position:absolute;
+	background: white;
+	margin: 50px;
+	width: 400px;
+	height: 500px;
+	text-align: center;
+	}
+
+.recetas h1 {
+	margin-top: 30px;
+	font-size: 30px;
+	background: white;
+	}
+
+.recetas img {
+	width: 400px; 
+	height: 300px;
+	margin-top: 30px;
+	}
+
+.recetas p {
+	text-align: justify;
+	margin: 20px;
+	background: none;
+	}
+
+a .recetas:hover{
+	background: rgba(100,0,255,0.4);
+	}
+
+a .recetas:active{
+	color: black;
+	}
+
+#desayunos {
+	left: 25px;
+	top: 30px;
+	}
+
+#postres {
+	left: 475px;
+	top: 30px;
+	}
+
+#snacks {
+	left: 915px;
+	top: 30px;
+	}
+
+#comidas {
+	left: 250px;
+	bottom: 20px;
+	}
+
+#cenas {
+	left: 700px;
+	bottom: 20px;
+	}
+
+
+aside {
+	position: absolute;
+	width: 358px;
+	height: 1200px;
+	right: 0;
+	top: 0;
+	background: none;
+	}
+
+aside h1 {
+	text-align: center;
+	line-height: 50px;
+	margin: 15px, auto;
+	background: white;
+	font-size: 30px;
+	}
+
+aside input{
+	text-align: center;
+	font-size: 20px;
+	padding: 10px;
+	margin: 5px 0;
+	width: 331px;
+	height: 10px;
+	}
+
+aside input[type="text"]{
+	background-image: url("../img/usuario.png");
+	background-repeat:no-repeat;
+	background-position:right;
+	background-size:contain;
+	}
+	
+aside input[type="email"]{
+	background-repeat:no-repeat;
+	background-position:right;
+	background-size:contain;
+	}
+	
+aside input[type="password"]{
+	background-image: url("../img/password.png");
+	background-repeat:no-repeat;
+	background-position:right;
+	background-size:contain;
+	}
+	
+aside input[type="submit"]{
+	width: 150px;
+	height: 30px;
+	background:#819FF7;
+	border:1;
+	}
+
+aside input[value="Enviar"]{
+	text-align: center;
+	vertical-align: middle;
+	line-height: 30px;
+	height: 30px;
+	padding: 0px;
+	}
+
+/*	NO CONSIGO CENTRAR EL TEXTO DEL BOTON*/
+
+#ultimo {
+	position: absolute;
+	width: 358px;
+	height: 981px;
+	background: #E0E6F8
+	}
+
+#ultimo h2{
+	line-height: 50px;
+	margin: 0px 15px;
+	background: #E0E6F8;
+	font-size: 20px;
+	}
+
+#ultimo ul li{
+	margin-bottom: 75px;
+	list-style: square;
+	list-style-position: inside;
+	}
+
+#ultimo ul li img{
+	float: left;
+	width: 125px;
+	height: 125px;
+	margin:0 0 10px 10px;
+	background-position:left;
+	}
+
+#ultimo ul li p{
+	font-size: 18px;
+	text-align: justify;
+	margin: 20px 10px 10px 10px;
+	background-position:left;
+	}
+
+footer {
+	position: relative;
+	margin: auto;
+	width: 1800px;
+	height: 50px;
+	color: black;
+	font-size: 30px;
+	text-align: center;
+	line-height: 50px;
+	}
+
