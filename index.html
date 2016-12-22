@@ -11,7 +11,7 @@
  	<title>Recetas Fitness y Saludables</title>
  	<link rel="icon" href="./img/logotipo.png">
 
- 	<link href="./css/style.css" type="text/css" rel="stylesheet" media="">
+ 	<link href="./css/style.css" type="text/css" rel="stylesheet">
  	<link href="https://fonts.googleapis.com/css?family=Chewy" rel="stylesheet">
 
 </head>
@@ -65,9 +65,11 @@
 
 	<section>
 
+		<h2>RECETAS FITNESS</h2>
+
 		<article id="desayunos" class="recetas">
 				
-				<a href="./desayunos.html"><h2>DESAYUNOS</h2></a>
+				<h2><a href="./desayunos.html">DESAYUNOS</a></h2>
 				<figure>
 					<img src="./img/desayuno.jpg" alt="Desayunos">
 				</figure>
@@ -77,23 +79,27 @@
 
 		<article id="postres" class="recetas">
 			
-				<a href="#"><h2>POSTRES</h2></a>
+				<h2><a href="#">POSTRES</a></h2>
 				<figure>
 					<img src="./img/postres.jpg" alt="Postres">
 				</figure>
 				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec quis efficitur nibh. Aliquam iaculis dictum urna, nec suscipit neque posuere sed. Nunc ac orci bibendum</p>
 
-		</article id="snacks" class="recetas">
+		</article>
+
+		<article id="snacks" class="recetas">
 		
-				<a href="#"><h2>SNACKS</h2></a>
+				<h2><a href="#">SNACKS</a></h2>
 				<figure>
 						<img src="./img/snacks.jpg" alt="Snacks">
 				</figure>
 				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec quis efficitur nibh. Aliquam iaculis dictum urna, nec suscipit neque posuere sed. Nunc ac orci bibendum</p>
 
+		</article> 
+
 		<article id="comidas" class="recetas">
 			
-				<a href="#"><h2>COMIDAS</h2></a>
+				<h2><a href="#">COMIDAS</a></h2>
 				<figure>
 						<img src="./img/comida.jpg" alt="Comidas">
 				</figure>
@@ -103,7 +109,7 @@
 
 		<article id="cenas" class="recetas">
 
-				<a href="#"><h2>CENAS</h2></a>
+				<h2><a href="#">CENAS</a></h2>
 				<figure>
 						<img src="./img/cena.jpg" alt="Cenas">
 				</figure>
@@ -115,7 +121,7 @@
 
 			<h3>Registro</h3>
 				
-			<form action="" method="" id="registro" name="registro">
+			<form action="recibe.php" method="post" id="registro" name="registro">
 
 				<input id="nombre" name="nombre" maxlength="10" type="text" placeholder="Usuario">
 				<input id="email" name="email" type="email" placeholder="Email">
@@ -162,8 +168,13 @@
 
 	</section>
 
+	<footer> 
+
+	<p>&copy; Todos los derechos reservados.</p>
+
+	</footer>
+
 </body>
 
-<footer>&copy; Todos los derechos reservados.</footer>
 
 </html>
